@@ -23,3 +23,12 @@ Configurer l'URL de yggtorrent (actuellement yggtorrent.wtf) et votre compte au 
 Executer le script pour afficher votre ratio.
 
 Le code est assez simple pour etre recupéré dans un programme plus complexe (suivi de ratio).
+
+
+### Fonctionnement :
+
+Le script effectue 2 requetes CURL :
+
+- La 1ere pour s'authentifier ( https://$YGGTORRENT_URL/user/login )
+- La 2e récupère l'entete du site ( https://$YGGTORRENT_URL/user/ajax_usermenu ) et fait le tri dans les informations pour les afficher.
+
