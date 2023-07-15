@@ -9,9 +9,9 @@ yggtorrent-get-ratio vous permet de récupérer votre ratio en PHP
 
 # Installation et configuration
 
-Mettre le fichier yggtorrent_ratio.php sur un serveur PHP
+Mettre le fichier [yggtorrent_ratio.php](yggtorrent_ratio.php) sur un serveur PHP
 
-Configurer l'URL et votre compte au début du script :
+Configurer l'URL de yggtorrent (actuellement yggtorrent.wtf) et votre compte au début du script :
 
 
     $YGGTORRENT_URL="yggtorrent.wtf";
