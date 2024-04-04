@@ -1,3 +1,7 @@
+## Edit 2024
+Le script ne semble plus fonctionner, Cloudfare bloque les requetes CURL, je n'ai pas le temps de contourner ca, je laisse tout de meme le script disponible.
+
+
 # yggtorrent-get-ratio
 yggtorrent-get-ratio vous permet de récupérer votre ratio en PHP
 
